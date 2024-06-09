@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'guy1976';
+    src: url('GUY1976-ONE.woff');
+}
+
+@font-face {
+    font-family: 'boldgod';
+    src: url('BOLdGOd-dISPLAY.woff');
+}
+
+@font-face {
+    font-family: 'timestamp';
+    src: url('TimeStamp-Standard.woff');
+}
+@font-face {
+    font-family: 'mourier';
+    src: url('Mourier-Regular.woff');
+}
+
+body{
+    background-color: #2F2504;
+}
+
+div.tab {
+    width:60%;
+    background:#A5AE9E;
+    margin-left: auto;
+    font-size: 200px;
+    text-align:center;
+    font-family: 'boldgod';
+    color:#594E36;
+}
+div.intro{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:100px;
+}
+div.introcol{
+    margin-right:auto;
+    font-family:'mourier';
+    font-size: 200px;
+    color:#7E846B;
+}
+
+div.main{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+div.headline{
+    font-size:250px;
+    font-family: 'guy1976';
+
+}
+div.headline.a {
+    color:#594E36;
+    font-size: 100px;
+    margin-left:auto;
+}
+div.headline.d{
+    font-size:100px;
+    color:#594E36;
+    margin-left:100px;
+}
+div.headline.b{
+    font-size: 250px;
+    margin-right:auto;
+    margin-top:30px;
+    color:#2F2504;
+    background:#7E846B;
+}
+div.paracol{
+    font-size:20px;
+    font-family: 'timestamp';
+    margin-left:690px;
+    margin-top:40px;
+    margin-right:30px;
+    color:#594E36;
+}
+div.headline.c{
+    color: #7E846B;
+    margin-left:auto;
+    margin-bottom: 80px;
+    font-size:250px;
+    font-family:'guy1976';
+
+}
+
+div.middle{
+
+    font-size: 30px;
+    font-family: 'mourier';
+    
+}
+
